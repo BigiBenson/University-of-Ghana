@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>University Of Ghana Chatroom</title>
+	 <style>
+          /* This is a comment it is not read by any browser
+          This is where the css styling goes */
+
+          body{
+         
+}
+.content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+.header img {
+  float: left;
+  width: 52px;
+  height: 52px;
+}
+
+.header h1 {
+  position: relative;
+  top: 0px;
+  left: 1px;
+  -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+
+}
+            }
+          </style>
+	<meta name="description" content="University Of Ghana Chatroom">
+	<meta name="author" content="Bigi Benson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Gorditas:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="content-wrapper">
+	<header>
+		<div class="header">
+        <img  src="img/ug-logo.jpeg" alt="logo" />
+		<h1>
+			<strong>University Of Ghana Chatroom</strong>
+		</h1>
+	       </div>
+	</header>
+
+	<section id="main" role="main">
+			<p id="presence"></p>
+		<div id="output"></div>
+		<div id="chat">
+			<i id="avatar" class="face12"></i><input type="text" id="input" placeholder="Type your message...">
+		</div>
+		<button style="color:white; background-color:#3b00a1;"  id="button">Send</button>
+ 		
+	</section>
+
+	<footer></footer>
+</div>
+
+	<script src="http://cdn.pubnub.com/pubnub.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
